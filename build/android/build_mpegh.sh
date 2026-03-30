@@ -68,7 +68,7 @@ for ABI in "armeabi-v7a" "x86"; do
     # make clean
 
     mkdir -p "$DEST"
-    cp -av $PREFIX/lib/*.a  $DEST
+    cp -av $PREFIX/lib/libmpeghdec.a $DEST
 
 done
 
